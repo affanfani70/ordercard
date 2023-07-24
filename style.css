@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(191, 191, 191);
+    background: linear-gradient(90deg, rgba(191, 191, 191, 1) 0%, rgba(116, 131, 186, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 25%;
+    height: 70%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+.card img{
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+}
+.txtBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+.txtBox p{
+    text-align: center;
+}
+#orderbtn{
+    width: 80%;
+    height: 8%;
+    background-color: rgb(44, 14, 104);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    color: white;
+}
+.cancelBox a{
+    text-decoration: none;
+    color: rgb(50, 51, 84);
+    font-weight: bold;
+}
+.cancelBox a:hover{
+    color: black;
+    text-decoration: underline;
+}
+#amount{
+    width: 80%;
+    height: 10%;
+    background-color: rgb(191, 191, 191);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.leftBox{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.img{
+    padding-right: 30px;
+    padding-left: 15px;
+}
+.img img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.rightBox{
+    padding-right: 10px;
+}
